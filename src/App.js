@@ -6,17 +6,25 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Amazon from './components/pages/Amazon';
+import Bali from './components/pages/Bali';
+import ScrollToTop from './ScroolToTop';
+
+
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
           <Route path='/sign-up' component={SignUp} />
+          <Route path='/Amazon' component={Amazon} />
+          <Route path='/Bali' component={Bali} />
         </Switch>
       </Router>
     </>

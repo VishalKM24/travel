@@ -13,28 +13,29 @@ function Cards() {
                     src="images/img-9.jpg"
                     text="Explore the hiden Waterfall deep inside the Amazon Jungle"
                     label="Adventure"
-                    path='/services'
-                    />
+                    path='/Amazon'
+                    />&nbsp;
+                    
                     <CardItem 
                     src="images/img-2.jpg"
-                    text="Travel through Islands of Bali in a Private Cruise"
+                    text="Adventure Travel  through Islands  of Bali in  a Private Cruise"
                     label="Luxury"
-                    path='/services'
+                    path='/Bali'
                     />
                     </ul>  
                     <ul className='cards__items'>
+                    <CardItem 
+                    src="images/img-1.jpg"
+                    text="Explore the hiden Waterfall deep inside the Amazon Jungle"
+                    label="Adventure"
+                    path='/products'
+                    />&nbsp;
                     <CardItem 
                     src="images/img-3.jpg"
                     text="Explore the hiden Waterfall deep inside the Amazon Jungle"
                     label="Adventure"
                     path='/products'
-                    />
-                    <CardItem 
-                    src="images/img-4.jpg"
-                    text="Explore the hiden Waterfall deep inside the Amazon Jungle"
-                    label="Adventure"
-                    path='/products'
-                    />
+                    />&nbsp;
                     <CardItem 
                     src="images/img-5.jpg"
                     text="Explore the hiden Waterfall deep inside the Amazon Jungle"

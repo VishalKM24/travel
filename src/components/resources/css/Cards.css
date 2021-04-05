@@ -53,7 +53,7 @@ h1 {
 
 .fade-img {
   animation-name: fade-img;
-  animation-duration: 2s;
+  animation-duration: 5s;
 }
 
 .cards__item__pic-wrap::after {
@@ -61,6 +61,7 @@ h1 {
   position: absolute;
   bottom: 0;
   margin-left: 10px;
+ 
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 12px;
@@ -97,6 +98,7 @@ h1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+  align-items: justify;
 }
 
 @media only screen and (min-width: 1200px) {

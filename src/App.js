@@ -9,6 +9,7 @@ import SignUp from './components/pages/SignUp';
 import Amazon from './components/pages/Amazon';
 import Bali from './components/pages/Bali';
 import ScrollToTop from './ScroolToTop';
+import BaliIslands from './components/pages/Bali-sites/BaliIslands';
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/Amazon' component={Amazon} />
           <Route path='/Bali' component={Bali} />
+          <Route path='/BaliIslands' component={BaliIslands} />
         </Switch>
       </Router>
     </>

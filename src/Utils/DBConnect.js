@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connection = {};
 async function dbConnect() {
-    const MONGODB_CONNECTION_URI = `mongodb+srv://LoneWolf:<Emailaccess24>@emaildb.phbcr.mongodb.net/Clusters?retryWrites=true&w=majority`
+    const MONGODB_CONNECTION_URI = `mongodb+srv://LoneWolf:<password>@emaildb.phbcr.mongodb.net/Clusters?retryWrites=true&w=majority`
     if (connection.isConnected) {
         return;
     }
